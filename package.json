@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "complete backend of youtube",
+  "keywords": [
+    "javascript",
+    "and",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "umair",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
