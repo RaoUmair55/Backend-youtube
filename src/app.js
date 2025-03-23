@@ -17,4 +17,13 @@ app.use(express.static("public")) //pdf picture etc for public anyone can accept
 
 app.use(cookieParser())
 
+
+//routes import
+import userRouter from "./routes/user.routes.js"
+
+//declaration
+app.use("/api/v1/users",userRouter)
+
+// http:localhost:3000/api/v1/users/register
+
 export {app}
