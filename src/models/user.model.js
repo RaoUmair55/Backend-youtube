@@ -65,7 +65,7 @@ userSchema.pre("save", async function (next) {
 //to compare we use password that user write to login and the stored pass in db that is encrypted so we use 
 //custom method from mongoose to compare and use bcrypt 
 
-userSchema.methods.isPasswprdCorrect = async function (password) {
+userSchema.methods.isPasswordCorrect = async function (password) {
     return await bcrypt.compare(password, this.password)
 }
 
