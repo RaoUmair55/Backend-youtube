@@ -1,0 +1,71 @@
+/* Register.css - glassmorphism dark theme */
+
+.register-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .register-container h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .register-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-container input {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: background 0.3s;
+  }
+  
+  .register-container input::file-selector-button {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    background: #00bcd4;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .register-container input::placeholder {
+    color: #ccc;
+  }
+  
+  .register-container input:focus {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .register-container button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 12px;
+    background: #00bcd4;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .register-container button:hover {
+    background: #00acc1;
+  }
+  
